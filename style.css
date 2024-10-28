@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    /* margin-top: 100px; */
+    display: flex;
+    margin-left: 100px;
+}
+
+.login-container {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    margin-top: 10px;
+}
+
+#error-message {
+    font-size: 14px;
+    margin-top: 10px;
+}
